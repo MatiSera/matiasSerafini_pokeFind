@@ -1,0 +1,38 @@
+.poke-detail-container {
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: auto;
+}
+
+.moves {
+  height: 170px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.poke-detail-container .moves-list {
+  columns: 5;
+  list-style: none;
+}
+
+.poke-detail-container .moves-list li {
+  margin: 5px;
+}
+
+.pokemon-image {
+  height: 10rem;
+  width: 10rem;
+  background-color: antiquewhite;
+  border-radius: 100px;
+  margin: 10px;
+}
